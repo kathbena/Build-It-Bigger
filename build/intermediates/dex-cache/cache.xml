@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/com.android.support-support-vector-drawable-23.2.0_563ee8059694608769661f17f6b0224887fd2595.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="471ac05470a72460e243f71e9e45aaf9581bd345">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/classes_89dd1cf97ab4589435d7c34f8ccd221e08016a57.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/com.android.support-animated-vector-drawable-23.2.0_caab2147e23a935be507d2cda3d2b7bf0526fa2b.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/support-annotations-23.2.0_c6293677a43e67476da08bc54e9b1fb3cd5bfe3a.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/com.android.support-appcompat-v7-23.2.0_70d6ff27313f4ece5ba0142a4344ef39237adc3b.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/internal_impl-23.2.0_4277acae256628770edecc9b1982998a24d535cf.jar" />
+    </item>
+    <item
+        jar="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/kathleenbenavides/Downloads/ud867-master/FinalProject/jokeLibrary/build/intermediates/pre-dexed/androidTest/debug/com.android.support-support-v4-23.2.0_c050f4c33a4af319f24738cf1175167317fde1a9.jar" />
+    </item>
+
+</items>

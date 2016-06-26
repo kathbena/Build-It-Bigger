@@ -1,0 +1,55 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task startServer {
+    description = "This task sets up the GCE local dev server"
+    doLast {
+        println "starting server"
+        tasks.getByPath(":backend:appengineRun")
+    }
+}
+
+task runTests() {
+    dependsOn startServer
+    mustRunAfter startServer
+    description = "This task runs all tests"
+    doLast {
+        println "running tests"
+        tasks.getByPath(":app:connectedAndroidTest")
+    }
+}
+
+task stopServer {
+    dependsOn startServer
+    mustRunAfter runTests
+    description = "This task stops the GCE local dev server"
+    doLast {
+        println "stopping server"
+        tasks.getByPath(":backend:appengineStop")
+    }
+}
+
+task tieItAllTogether {
+    dependsOn runTests, stopServer
+    description = "This task ties all test tasks asked together"
+    doLast {
+        println "DONE!"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
